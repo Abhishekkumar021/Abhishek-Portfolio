@@ -1,17 +1,17 @@
 import React from "react";
 // import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// import Particle from "../Particles";
-import mscc from "../../assets/MSCC-1.png";
-import trustQR from "../../assets/Trust-QR-1.png";
-import valueHunt from "../../assets/ValueHunt-1.png";
+import Particle from "../Particles";
+import mscc from "../../Assets/Projects/MSCC-1.png";
+import trustQR from "../../Assets/Projects/Trust-QR-1.png";
+import valueHunt from "../../Assets/Projects/ValueHunt-1.png";
 import '../../styles/project.css'
 
 
 export default function Projects() {
     return (
         <div className="project-section">
-            {/* <Particle /> */}
+            <Particle />
             <div className="cnt">
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Works </strong>

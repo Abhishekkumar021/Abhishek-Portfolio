@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-// import Particle from "../Particles";
-import pdf from "../../assets/Abhishek_kumar_cv.pdf";
-import download from "../../assets/download-96.png";
+import Particle from "../Particles";
+import pdf from "../../Assets/Resume/Abhishek_kumar_cv.pdf";
+import download from "../../Assets/Resume/download-96.png";
 import 'react-pdf/dist/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import '../../styles/resume.css'
