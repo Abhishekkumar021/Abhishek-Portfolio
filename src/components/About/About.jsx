@@ -3,7 +3,7 @@ import React from "react";
 // import Github from "./GithubStatus";
 import Techstack from "./Technologies";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../assets/about.png";
 import Toolstack from "./Tools";
 
 export default function About() {

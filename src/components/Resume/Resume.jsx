@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 // import Particle from "../Particles";
-import pdf from "../../Assets/Abhishek_kumar_cv.pdf";
-import download from "../../Assets/download-96.png";
+import pdf from "../../assets/Abhishek_kumar_cv.pdf";
+import download from "../../assets/download-96.png";
 import 'react-pdf/dist/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import '../../styles/resume.css'
@@ -29,7 +29,7 @@ export default function Resume() {
 
         <div className="resume-file">
           <Document file={pdf} className="res-file">
-            <Page pageNumber={1} size='A4' scale={width > 786 ? 1.7 : 0.6}/>
+            <Page pageNumber={1} size='A4' scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </div>
 

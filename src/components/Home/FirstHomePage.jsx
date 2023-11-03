@@ -1,7 +1,7 @@
 import React from "react";
 import Particle from "../Particles";
 import SecondPage from "./SecondHomePage";
-import homeLogo from '../../Assets/home-main.svg'
+import homeLogo from '../../assets/home-main.svg'
 import '../../styles/home.css'
 import Type from "./Type";
 

@@ -1,10 +1,10 @@
 import React from "react";
 
-import Postman from "../../Assets/postman-96.png"
-import VsCode from "../../Assets/vs-code-480.png"
-import VmWare from "../../Assets/vmware-500.png"
-import Linux from "../../Assets/linux-100.png"
-import Docker from "../../Assets/docker-144.png"
+import Postman from "../../assets/postman-96.png"
+import VsCode from "../../assets/vs-code-480.png"
+import VmWare from "../../assets/vmware-500.png"
+import Linux from "../../assets/linux-100.png"
+import Docker from "../../assets/docker-144.png"
 
 
 

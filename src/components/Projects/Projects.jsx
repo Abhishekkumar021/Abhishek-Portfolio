@@ -2,9 +2,9 @@ import React from "react";
 // import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // import Particle from "../Particles";
-import mscc from "../../Assets/MSCC-1.png";
-import trustQR from "../../Assets/Trust-QR-1.png";
-import valueHunt from "../../Assets/ValueHunt-1.png";
+import mscc from "../../assets/MSCC-1.png";
+import trustQR from "../../assets/Trust-QR-1.png";
+import valueHunt from "../../assets/ValueHunt-1.png";
 import '../../styles/project.css'
 
 
