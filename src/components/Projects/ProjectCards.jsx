@@ -1,9 +1,5 @@
 import '../../styles/project.css'
 import React from 'react';
-import github from '../../Assets/Social_media/github-480.png'
-
-
-
 
 
 function ProjectCards(props) {

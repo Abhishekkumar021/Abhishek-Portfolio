@@ -1,9 +1,9 @@
 import React from "react";
 import '../styles/footer.css';
 
-import Linkedin from '../Assets/Social_media/linkedin-480.png'
-import Github from '../Assets/Social_media/github-480.png'
-import Instagram from '../Assets/Social_media/instagram-384.png'
+import Linkedin from '../Assets/linkedin-480.png'
+import Github from '../Assets/github-480.png'
+import Instagram from '../Assets/instagram-384.png'
 
 export default function Footer() {
     let date = new Date();

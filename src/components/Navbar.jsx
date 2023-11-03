@@ -1,11 +1,11 @@
-import logo from "../Assets/Navbar Assets/logo1.png";
-import home from "../Assets/Navbar Assets/home-384.png";
-import about from "../Assets/Navbar Assets/user-96.png";
-import project from "../Assets/Navbar Assets/projectionScreen.png";
-import resume from "../Assets/Navbar Assets/document-512.png";
-import fork from "../Assets/Navbar Assets/code-fork-100.png";
-import star from "../Assets/Navbar Assets/star-100.png";
-import contact from "../Assets/Navbar Assets/mail-100.png";
+import logo from "../Assets/logo1.png";
+import home from "../Assets/home-384.png";
+import about from "../Assets/user-96.png";
+import project from "../Assets/projectionScreen.png";
+import resume from "../Assets/document-512.png";
+import fork from "../Assets/code-fork-100.png";
+import star from "../Assets/star-100.png";
+import contact from "../Assets/mail-100.png";
 import { Link } from "react-router-dom";
 
 

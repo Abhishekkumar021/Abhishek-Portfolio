@@ -1,6 +1,6 @@
 import React from "react";
 // import Card from "react-bootstrap/Card";
-import rightHand from '../../Assets/Tools&Skills/hand-right-96.png'
+import rightHand from '../../Assets/hand-right-96.png'
 
 export default function AboutCard() {
     return (

@@ -1,11 +1,11 @@
 import React from "react";
-import myImg from "../../Assets/Background images/avatar.svg";
+import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import '../../styles/secondHome.css'
 
-import Linkedin from '../../Assets/Social_media/linkedin-480.png'
-import Github from '../../Assets/Social_media/github-480.png'
-import Instagram from '../../Assets/Social_media/instagram-384.png'
+import Linkedin from '../../Assets/linkedin-480.png'
+import Github from '../../Assets/github-480.png'
+import Instagram from '../../Assets/instagram-384.png'
 
 
 export default function SecondHomePage() {

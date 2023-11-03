@@ -1,15 +1,15 @@
 import React from "react";
-import Particle from "../Particles";
+// import Particle from "../Particles";
 // import Github from "./GithubStatus";
 import Techstack from "./Technologies";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/Background images/about.png";
+import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Tools";
 
 export default function About() {
     return (
         <div className="about-section">
-            <Particle />
+            {/* <Particle /> */}
             <div className="card">
                 <div className='aboutCard-section' >
                     <span className="heading1" >
