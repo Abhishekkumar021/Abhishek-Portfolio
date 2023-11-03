@@ -1,0 +1,121 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    color: white !important;
+    padding-left: 100px;
+}
+
+.purple {
+    color: #c770f0 !important;
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading h1 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin-bottom: .5rem;
+    padding-left: 35px;
+}
+
+.home-about-body {
+    font-size: 1.2em;
+    padding-top: 35px;
+    text-align: justify;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    /* padding-inline-start: 0 !important; */
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+}
+
+.social-icon {
+    transition: 0.5s !important;
+    margin: 20px;
+}
+
+.social-icon img {
+    height: 40px;
+    width: 40px;
+}
+
+.img-avatar {
+    padding-top: 9em;
+    padding-left: 70px;
+}
+
+.home-social h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+
+.home-about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+}
+
+.home-about {
+    text-align: center;
+}
+
+
+.social-icon {
+    position: relative !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    line-height: 2em !important;
+    background: rgba(255, 255, 255, 0.972) !important;
+    border-radius: 50% !important;
+    transition: 0.1s !important;
+}
+
+.social-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #68187a;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+.social-icon:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #801f95;
+}
+
+.social-icon:hover {
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
+}

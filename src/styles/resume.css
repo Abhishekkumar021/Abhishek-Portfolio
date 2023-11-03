@@ -1,0 +1,120 @@
+.main {
+    padding-top: 120px !important;
+    padding-bottom: 80px !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+.resume-section {
+    position: relative !important;
+    background-image: var(--section-background-color) !important;
+    color: white !important;
+}
+
+.resume-file {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.resume-left {
+    padding-right: 80px !important;
+}
+
+.resume-right {
+    padding-left: 80px !important;
+}
+
+@media (max-width: 767px) {
+    .resume-left {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .resume-right {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}
+
+.resume-file .resume-title {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.resume-file .resume-item {
+    padding: 0 0 10px 25px;
+    margin-top: -2px;
+    border-left: 2px solid #8a49a8;
+    position: relative;
+}
+
+.resume-file .resume-item .resume-title {
+    line-height: 18px;
+    font-size: 0.9em;
+    background: #5234795d;
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-file .resume-item ul {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.resume-file .resume-item ul li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.resume-file .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume-file .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #8a49a8;
+}
+
+
+.res-btn {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.res-btn a img {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.res-btn a {
+    /* border: 5px solid rebeccapurple; */
+    background-color: #8a49a8;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+
+.res-btn a:hover {
+    background-color: violet;
+    border-color: violet;
+    /* color: black; */
+    /* font-weight: 700; */
+}
