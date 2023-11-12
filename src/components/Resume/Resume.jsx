@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, Page} from "react-pdf";
+const pdfjs = import('pdfjs-dist/build/pdf');
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Particle from "../Particles";
 import pdf from "../../Assets/Resume/Abhishek_kumar_cv.pdf";
